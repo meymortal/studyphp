@@ -1,5 +1,7 @@
 <?php
 
+namespace App;
+
     class FirstClass{
         public $color;
         public $counter = 4;

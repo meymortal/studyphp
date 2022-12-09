@@ -1,6 +1,8 @@
 <?php
 
-require_once 'Animals.php';
+//require_once 'Animals.php';
+namespace App;
+use App\Animals;
 
 class Snake extends Animals
 {

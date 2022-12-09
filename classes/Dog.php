@@ -1,7 +1,11 @@
 <?php
 
-require_once 'Animals.php';
-require_once 'Goable.php';
+/*require_once 'Animals.php';
+require_once 'Goable.php';*/
+
+namespace App;
+use App\Animals;
+use App\Goable;
 
 class Dog extends Animals
 {

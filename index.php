@@ -1,9 +1,14 @@
 <?php
 
-require_once 'classes/FirstClass.php';
+/*require_once 'classes/FirstClass.php';
 require_once 'classes/Cat.php';
 require_once 'classes/Dog.php';
-require_once 'classes/Snake.php';
+require_once 'classes/Snake.php';*/
+require __DIR__ . '/vendor/autoload.php';
+use App\FirstClass;
+use App\Cat;
+use App\Dog;
+use App\Snake;
 
 function febug($data) {
     echo '<pre>' . print_r($data, return: 1) . '</pre>';

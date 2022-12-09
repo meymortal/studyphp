@@ -1,5 +1,8 @@
 <?php
 
+namespace App;
+
+
 trait Distianable
 {
     protected int $distance = 0;

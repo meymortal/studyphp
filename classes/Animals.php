@@ -1,8 +1,11 @@
 <?php
 
-require_once 'AnimalInterface.php';
-require_once 'Distianable.php';
+//require_once 'AnimalInterface.php';
+//require_once 'Distianable.php';
 
+namespace App;
+use App\AnimalInterface;
+use App\Distianable;
 
 abstract class Animals implements AnimalInterface
 {
